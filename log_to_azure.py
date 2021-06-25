@@ -1,4 +1,4 @@
-import tensorflow.keras.callbacks.Callback as Callback
+from tensorflow.keras.callbacks import Callback
 
 class LogToAzure(Callback):
     '''Keras Callback for realtime logging to Azure'''
